@@ -60,6 +60,7 @@ function makePurchase(){
         }
         else {
             console.log("\nThat's okay, come again when you are more sure.\n");
+            connection.end();
         }
     });
 };
